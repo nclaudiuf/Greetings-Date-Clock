@@ -34,17 +34,21 @@ h1 {
 .table-cell {
     display: table-cell;
     vertical-align: middle;
+     justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
 .card {
-    padding: 12px 24px 12px 24px;
+    padding: 12px 18px 12px 18px;
     border-radius: 12px;
     background: #FFD438;
     width: 80vw;
     color: #343434;
     display: inline-block;
     box-shadow: 2px 2px 1px 0px #330835;
+    justify-content: center;
+    align-items: center;
 }
 
 .card:hover {
@@ -80,16 +84,16 @@ h1 {
     display:inline;
     font-family: 'Dancing Script', cursive;
     font-size: 2.5rem;
-     padding-right: 32px;
+     padding-right: 6%;
 }
       .icon{      
         display:inline;
          min-width: 160px;
-         padding-right: 32px;
+         padding-right: 2%;
       }
       .icon img {
         width: 12%;
-        margin-top: -5%;
+        margin-top: -6%;
       }
 
     </style>
@@ -120,7 +124,6 @@ h1 {
 var today = new Date();
 document.getElementById('date').innerHTML = today.toDateString();
 }
-
 
 function clock() {
 var today = new Date();
